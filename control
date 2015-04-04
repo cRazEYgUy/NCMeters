@@ -1,0 +1,10 @@
+Package: com.sticktron.ncmeters
+Name: NCMeters
+Depends: firmware (>= 7.0), com.chpwn.weeloader (>= 1.4-1), preferenceloader
+Version: 1.0
+Architecture: iphoneos-arm
+Description: System stats in the Notification Center.
+Homepage: http://sticktron.com
+Author: Sticktron <sticktron@hotmail.com>
+Section: Addons (NotificationCenter)
+Icon: file:///Library/PreferenceBundles/NCMetersSettings.bundle/Icon.png

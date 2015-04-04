@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = NCMetersSettings;
+		cell = PSLinkCell;
+		detail = "NCMetersSettingsController";
+		icon = "Icon.png";
+		isController = 1;
+		label = NCMeters;
+	};
+}
