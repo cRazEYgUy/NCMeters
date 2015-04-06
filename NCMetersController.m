@@ -257,6 +257,14 @@ static void settingsChanged(CFNotificationCenterRef center, void *observer,
 	[super hostDidDismiss];
 }
 
+- (void)viewDidLayoutSubviews {
+	[super viewDidLayoutSubviews];
+	
+	// we don't really need to re-layout every time this is called,
+	// but it will catch orientation changes for us
+	[self updateLayout];
+}
+
 - (void)dealloc {
 	// make SURE the timer is dead.
 	[meterUpdateTimer invalidate];
